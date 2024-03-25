@@ -1,0 +1,382 @@
+ License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 1000
+
+..oxygen-light {
+	font-family: "Oxygen", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+  .oxygen-regular {
+	font-family: "Oxygen", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  .oxygen-bold {
+	font-family: "Oxygen", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	color:black;
+	background-color: #efefef;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.sect1{
+	background-color:#efefef;
+	position:static;
+	line-height:4.2;
+	font-family:'DM Sans', sans-serif;
+	width:100%;
+	opacity:100%;
+	
+
+}
+.pad{
+	padding: 0rem 0.3rem 0rem 0.3rem;
+}
+
+header h1{
+		padding:1rem 0rem 0rem 0rem;
+		font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+	font-size:1.5rem;
+	margin-left:1.5rem;
+}
+  .logo img{
+                width: 3rem;
+    margin-left: 4rem;
+    margin-top: 0.3rem;
+        }
+       
+        span.row{
+            width:100%;
+        }
+        nav{
+            
+			width:100%;
+			margin-top: 0.5rem;
+        }
+		h1{
+			display:inline-block;
+		}
+        nav ul li a{
+            text-decoration:none;
+            color:black;
+			font-size:1rem;
+			
+        }
+        ul li{
+            
+            font-size: 1.5rem;
+			padding-top:0.5rem;
+		}
+            
+    ul{ margin:0;
+		}
+		i{
+			font-size: 1.4rem;
+		}
+       .i{
+            padding:0.5rem 1.0rem;
+            background-color: white;
+            border-radius:0.5rem;
+		
+			margin:0.5rem;
+        }
+		.bg-img{
+            background-image: url(mbr.jpg);
+            background-attachment:scroll;
+            background-size: cover;
+			background-position:cover;
+			background-repeat:no-repeat;
+			background-position:50% 50%;
+padding:5rem  0rem;
+			
+        }
+      
+		.bg-container{
+            padding:0rem 1rem;
+        }
+        ul{
+        justify-content: center;
+        }
+        .bg{
+            text-align: center;
+           
+        }
+		.pa1{
+			padding:5rem 5rem;
+		}
+        .icons{
+            
+			align-content:center;
+			
+        }
+		
+		.sect-para h1{
+			font-size: 4rem;
+		}
+		.get_started{
+			
+           font-size: xx-large;
+		border-radius: 1rem;
+		background-color:#f8d9c4;
+		margin-top:2rem;
+		border-radius: 0.4rem;
+		padding: 0.2rem 2.3rem;
+}
+		.sect4{
+			padding:15rem 10rem;
+			font-size:2rem;
+		}
+		.positionleft img{
+			width: 22rem;
+    border-radius: 1em;
+    position: relative;
+    
+	margin:1rem 0rem;
+		}
+		
+		header{
+			padding-top:1.1rem;
+		}
+		.weeth{
+			max-width:5rem;
+		}
+		.sect-para{
+			padding:10% 20%;
+			line-height: 3;
+			max-width:30rem;
+		}
+		.sect-para p{
+			font-size: 1.2rem;
+    
+    line-height: 2;
+    margin: 1.2rem 0rem;
+			
+		}
+		.sect2{
+			font-family: inherit;
+		}
+		.seect4-row{
+padding:6rem 0rem;
+background-color:#efefef;
+		}
+		.seect4-row .white-bg{
+			background-color:white;
+			padding:0 15rem 0rem 0rem;
+			position: static;
+			
+			border-radius: 2rem;
+
+		}
+		 .white-bg div li i{
+			font-size:1.44rem;
+			margin-right:1rem;
+		 }
+		 .white-bg div li{
+			font-size:1em;
+			font-family:'DM Sans', sans-serif;
+			font-weight:600;
+		 }
+		 .white-bg div .p1{
+			color:grey;
+			font-weight:600;
+		 }
+		 p1{
+			color:black;
+			font-weight:200;
+		 }
+		 .consult{
+			background-color:#dce8eb;
+			border-color:#dce8eb;
+			border-style:solid;
+			border-radius:0.5rem;
+		 }
+		 .seect-4 .row{
+			justify-content:center;
+		 }
+		 .p2{
+			text-align:center;
+			font-size: 1.5rem;
+			color: grey;
+			font-weight:600;
+		 }
+		 .p3{
+			line-height: 1;
+		 }
+		 .get_start{
+			justify-content:center;
+		 }
+		 .sec5row{
+			justify-content: center;
+		 }
+		 .sec5{
+			background-color:white;
+			padding:5rem 4rem;
+		 }
+		 .white-box{
+			
+			padding:3rem 1.5rem;
+			border-radius: 1rem;
+		 }
+		 .colr-box{
+			padding:3rem 1.5rem;
+			border-radius: 1rem;
+		 }
+		 .bg-hold{
+			background-color:#efefef;
+			border-radius:1.5rem;
+			padding:2rem;
+			line-height: 2;
+		 }
+		 .bg-hol1{
+			
+			background: linear-gradient(-219deg, rgba(61, 84, 208, 1) 75%, rgba(255, 132, 132, 1) 76%);
+    border-radius: 1.5rem;
+    color: white;
+    padding: 2rem;
+    line-height: 2;
+}
+		 
+.bg-hol1 ul li,.bg-hold ul li{
+	padding:0px;
+	font-size: 1.2rem;
+	font-weight:300
+			 }
+		 ul{
+			padding:0
+		 }
+		 .bg-hol1 ul li i,.bg-hold ul li i{
+			font-size:0.6rem;
+			margin-right: 0.5rem;
+		 }
+		 .get-start{
+			background-color: #dce8eb;
+    border-color: #dce8eb;
+    border: solid #dce8eb 1px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.29rem;
+		 }
+		 .cost{
+			font-size:3rem;
+			font-weight:500;
+		 }
+		 .buton{
+			justify-content: center;
+		 }
+		 p.light-clr{
+			margin:0px;
+		 }
+		 .get-started div{
+			padding:0.3rem 0.2rem;
+		 }
+		 .sect8{
+			background-color:#efefef;
+			padding:4rem 4rem;
+		 }
+		 .sect8 .grey{
+			color:grey;
+			font-weight:600;
+			font-size: 1.5rem;
+		 }
+		 .sect8 .hea-grey{
+			color:black;
+			font-weight:700;
+			font-size:4rem;
+		 }
+		 .sect8 .prof-ali{
+			justify-content: center;
+		 }
+		  .bgwhite{
+padding:3.5rem 3.5rem;
+background-color: white;
+border-radius: 0.5rem;
+		 }
+		 .bgwhite .profile{
+			padding:5rem 5rem;
+			background-color:black;
+			border-radius:50%;
+			margin:1rem auto;
+			max-width:10rem;
+		 }
+		 .prof1{
+			background-image: url(team1.jpg);
+		 }
+		 .prof2{
+			background-image: url(team2.jpg);
+		 }
+		 .prof3{
+			background-image: url(team3.jpg);
+		 }
+		 .prof4{
+			background-image: url(team4.jpg);
+
+		 }
+		 .profile{
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-blend-mode: lighten;
+			
+		 }
+		 .prof-ali div{
+			padding:2rem 1rem;
+		 }
+		 .bgwhite .job{
+			font-size: 1rem;
+			text-align: center;
+		 }
+		 .bgwhite .name{
+			text-align: center;
+		 }
+		 .width{]}
